@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v28-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/raleway-v28-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/raleway-v28-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/raleway-v28-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/raleway-v28-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/raleway-v28-latin-regular.svg#Raleway") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v34-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v34-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v34-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/open-sans-v34-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/open-sans-v34-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v34-latin-regular.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v34-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v34-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v34-latin-600.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/open-sans-v34-latin-600.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/open-sans-v34-latin-600.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v34-latin-600.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v34-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/open-sans-v34-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/open-sans-v34-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/open-sans-v34-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/open-sans-v34-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/open-sans-v34-latin-700.svg#OpenSans") format("svg"); /* Legacy iOS */
+}
+.page__content__information,
+.page__content__pic {
+  float: left;
+}
+.page__content__information {
+  margin: 0px 25px 0px 76px;
+}
+.page {
+  box-sizing: border-box;
+  width: 992px;
+  height: 425px;
+  margin: 0 auto;
+}
+.page__navigation {
+  height: 40px;
+  border-bottom: 1px solid #c6cbcd;
+}
+.page__navigation span {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 67px;
+}
+.page__navigation__span1,
+.page__navigation__span2,
+.page__navigation__span3 {
+  height: 40px;
+  width: 173px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.page__content__information-header {
+  width: 483px;
+  height: 89px;
+}
+.page__content__information-header h3 {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+}
+.page__content {
+  width: 992px;
+  height: 385px;
+  border: 1px solid #c6cbcd;
+  border-top: none;
+  display: flex;
+}
+.page__content h5 {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.page__content__information-btn {
+  margin: 38px 0px 50px 0px;
+  width: 232px;
+  height: 58px;
+  background: #ec7979;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page__content__information-btn span {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+}
+.page__content__pic {
+  width: 400px;
+  height: 385px;
+}
+img {
+  width: 414px;
+  height: 386px;
+}
+.page__navigation__span1 {
+  border: 0.1px solid #c6cbcd;
+  border-radius: 5px;
+  border-bottom: none;
+}
